@@ -23,3 +23,12 @@ puts "The winner is #{firstname}"
 
 country = "Brazil"
 puts "Working in #{country}"
+
+# Commas: Prints with a newline between strings
+puts "The winner is #{firstname}", "Working in #{country}"
+
+# Number of charaters in a string
+puts "halcyon".length
+# empty string
+puts "".length
+
