@@ -54,3 +54,48 @@ ns[-3]
 
 # The first 10 letters of the ABC
 ("a".."z").to_a.slice(1, 10)
+
+# Test for element inclusion
+numbers.include?(15)
+
+# Sorting
+numbers.sort
+# sort in place
+numbers.sort!
+
+# Reversing an array
+numbers.reverse
+
+# Push an element at the end
+numbers.push(29)
+# Pop an element from the end
+numbers.pop
+
+# Using the shovel operator << to push elements 
+numbers << 40 << 34 << 0 << 25
+
+# Join elements of an array
+numbers.join
+numbers.join(", ")
+
+# Pop element at the front
+numbers.shift
+
+# Push elemente at the front
+numbers.unshift(7)
+
+# Iteration
+for n in numbers
+    puts n
+end
+
+# Using each to iterate over an array
+numbers.each do |n|
+    puts n
+end
+
+# Printing elements of numbers in reverse order
+numbers.reverse.each do |n|
+    puts n
+end
+
